@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Heebo", sans-serif;
+}
+/* Start Landing Sction */
+/* **** Start Navbar ***/
+.navbar .nav-link {
+  font-weight: 500;
+  font-size: 20px;
+}
+.navbar .container {
+  justify-content: flex-end !important;
+}
+/* **** End Navbar *****************/
+.section {
+  height: calc(100vh - 56px);
+}
+/* End Landing Section ***************************************************/
+/* Start Recent Posts */
+.recent-posts {
+  background-color: #edf7fa;
+}
+/**********************************************************/
+.footer {
+  padding-top: 70px;
+}
+.footer li a i {
+  transition: 0.3s;
+}
+.footer li a:hover i {
+  color: #bb2d3b;
+}
